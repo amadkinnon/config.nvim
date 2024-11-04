@@ -1,6 +1,9 @@
 return {
   {
     'ray-x/go.nvim',
+    keys = {
+      { '<leader>cl', '<cmd>GoCodeLenAct<cr>', desc = 'Code Lens' },
+    },
     dependencies = { -- optional packages
       'ray-x/guihua.lua',
       'neovim/nvim-lspconfig',
