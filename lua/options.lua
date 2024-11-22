@@ -64,4 +64,6 @@ vim.opt.scrolloff = 10
 
 vim.o.completeopt = 'menuone,noselect'
 
+-- vim.o.conceallevel = 2
+
 -- vim: ts=2 sts=2 sw=2 et
