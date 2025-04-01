@@ -24,15 +24,10 @@ require('lazy').setup({
   -- include a plugin definition from file lua/path/name.lua
 
   require 'kickstart/plugins/gitsigns',
-
   require 'kickstart/plugins/which-key',
-
   require 'kickstart/plugins/telescope',
-
   require 'kickstart/plugins/lspconfig',
-
   require 'kickstart/plugins/conform',
-
   require 'kickstart/plugins/cmp',
 
   -- Colorscheme
@@ -40,36 +35,22 @@ require('lazy').setup({
   require 'kickstart/plugins/onedark',
 
   require 'kickstart/plugins/todo-comments',
-
   require 'kickstart/plugins/mini',
-
   require 'kickstart/plugins/treesitter',
-
   require 'kickstart/plugins/undotree',
-
   -- require 'kickstart/plugins/tmuxnavigator',
-
   require 'kickstart/plugins/vimfugitive',
-  -- The following comments only work if you have downloaded the kickstart repo, not just copy pasted the
+
   -- require 'kickstart/plugins/go',
-
   -- require 'kickstart/plugins/markdownpreview',
-
   -- require 'kickstart/plugins/neo-tree',
-
   -- require 'kickstart/plugins/luarocks',
-
+  --
+  -- AI Plugins
   -- require 'kickstart/plugins/copilot',
+  -- require 'kickstart/plugins/copilotchat',
+  require 'kickstart/plugins/avante',
 
-  -- require 'kickstart/plugins/avante',
-  -- init.lua. If you want these files, they are in the repository, so you can just download them and
-  -- place them in the correct locations.
-
-  -- NOTE: Next step on your Neovim journey: Add/Configure additional plugins for Kickstart
-  --
-  --  Here are some example plugins that I've included in the Kickstart repository.
-  --  Uncomment any of the lines below to enable them (you will need to restart nvim).
-  --
   -- require 'kickstart.plugins.debug',
   require 'kickstart.plugins.indent_line',
   require 'kickstart.plugins.lint',
